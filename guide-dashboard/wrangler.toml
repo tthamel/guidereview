@@ -1,0 +1,6 @@
+name = "guide-1on1-dashboard"
+compatibility_date = "2024-12-01"
+
+# Cloudflare Pages config:
+# Build command: npm run build
+# Build output directory: dist
