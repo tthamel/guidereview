@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { S, GROUPS } from '../../styles/theme';
-import { genId } from '../../utils/helpers';
-import { DEFAULT_3CS, DEFAULT_COACHING_POINTS, DEFAULT_FEEDBACK } from '../../utils/defaults';
+import { S, GROUPS } from '../styles/theme';
+import { genId } from '../utils/helpers';
+import { DEFAULT_3CS, DEFAULT_COACHING_POINTS, DEFAULT_FEEDBACK } from '../utils/defaults';
 
 export default function AddGuideModal({ onAdd, onClose, leads }) {
   const [name, setName] = useState("");

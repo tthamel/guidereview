@@ -1,5 +1,5 @@
-import { S } from '../../styles/theme';
-import { fmtDate } from '../../utils/helpers';
+import { S } from '../styles/theme';
+import { fmtDate } from '../utils/helpers';
 
 export default function ChangelogView({ changelog }) {
   if (!changelog.length) return <div style={{ textAlign: "center", padding: 48, color: "#5a5a6e", fontFamily: "'DM Sans', sans-serif" }}>No changes recorded yet.</div>;
